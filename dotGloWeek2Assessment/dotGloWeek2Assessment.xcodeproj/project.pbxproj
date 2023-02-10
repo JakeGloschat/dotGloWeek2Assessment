@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		23926A562996F99F00B4081C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23926A552996F99F00B4081C /* AppDelegate.swift */; };
 		23926A582996F99F00B4081C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23926A572996F99F00B4081C /* SceneDelegate.swift */; };
-		23926A5A2996F99F00B4081C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23926A592996F99F00B4081C /* ViewController.swift */; };
 		23926A5D2996F99F00B4081C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23926A5B2996F99F00B4081C /* Main.storyboard */; };
 		23926A5F2996F9A000B4081C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23926A5E2996F9A000B4081C /* Assets.xcassets */; };
 		23926A622996F9A000B4081C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23926A602996F9A000B4081C /* LaunchScreen.storyboard */; };
+		23926A6A2996FBFC00B4081C /* SportsteamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23926A692996FBFC00B4081C /* SportsteamTableViewController.swift */; };
+		23926A6C2996FF1100B4081C /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23926A6B2996FF1100B4081C /* TeamTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		23926A522996F99F00B4081C /* dotGloWeek2Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dotGloWeek2Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23926A552996F99F00B4081C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23926A572996F99F00B4081C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		23926A592996F99F00B4081C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23926A5C2996F99F00B4081C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23926A5E2996F9A000B4081C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23926A612996F9A000B4081C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23926A632996F9A000B4081C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23926A692996FBFC00B4081C /* SportsteamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsteamTableViewController.swift; sourceTree = "<group>"; };
+		23926A6B2996FF1100B4081C /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				23926A552996F99F00B4081C /* AppDelegate.swift */,
 				23926A572996F99F00B4081C /* SceneDelegate.swift */,
-				23926A592996F99F00B4081C /* ViewController.swift */,
 				23926A5B2996F99F00B4081C /* Main.storyboard */,
 				23926A5E2996F9A000B4081C /* Assets.xcassets */,
 				23926A602996F9A000B4081C /* LaunchScreen.storyboard */,
 				23926A632996F9A000B4081C /* Info.plist */,
+				23926A692996FBFC00B4081C /* SportsteamTableViewController.swift */,
+				23926A6B2996FF1100B4081C /* TeamTableViewCell.swift */,
 			);
 			path = dotGloWeek2Assessment;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23926A5A2996F99F00B4081C /* ViewController.swift in Sources */,
+				23926A6C2996FF1100B4081C /* TeamTableViewCell.swift in Sources */,
 				23926A562996F99F00B4081C /* AppDelegate.swift in Sources */,
 				23926A582996F99F00B4081C /* SceneDelegate.swift in Sources */,
+				23926A6A2996FBFC00B4081C /* SportsteamTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

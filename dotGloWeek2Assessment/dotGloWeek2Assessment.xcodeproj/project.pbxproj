@@ -14,6 +14,7 @@
 		23926A622996F9A000B4081C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23926A602996F9A000B4081C /* LaunchScreen.storyboard */; };
 		23926A6A2996FBFC00B4081C /* SportsteamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23926A692996FBFC00B4081C /* SportsteamTableViewController.swift */; };
 		23926A6C2996FF1100B4081C /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23926A6B2996FF1100B4081C /* TeamTableViewCell.swift */; };
+		23926A6E29970C8000B4081C /* TeamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23926A6D29970C8000B4081C /* TeamDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		23926A632996F9A000B4081C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23926A692996FBFC00B4081C /* SportsteamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsteamTableViewController.swift; sourceTree = "<group>"; };
 		23926A6B2996FF1100B4081C /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		23926A6D29970C8000B4081C /* TeamDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				23926A632996F9A000B4081C /* Info.plist */,
 				23926A692996FBFC00B4081C /* SportsteamTableViewController.swift */,
 				23926A6B2996FF1100B4081C /* TeamTableViewCell.swift */,
+				23926A6D29970C8000B4081C /* TeamDetailViewController.swift */,
 			);
 			path = dotGloWeek2Assessment;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23926A6E29970C8000B4081C /* TeamDetailViewController.swift in Sources */,
 				23926A6C2996FF1100B4081C /* TeamTableViewCell.swift in Sources */,
 				23926A562996F99F00B4081C /* AppDelegate.swift in Sources */,
 				23926A582996F99F00B4081C /* SceneDelegate.swift in Sources */,

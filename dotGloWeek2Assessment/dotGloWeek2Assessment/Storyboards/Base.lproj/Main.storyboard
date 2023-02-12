@@ -53,19 +53,16 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="kVm-Xe-Juw" firstAttribute="width" secondItem="noV-RT-Jdk" secondAttribute="width" multiplier="0.890756" id="0a7-7g-QBk"/>
                                                 <constraint firstItem="vDV-WG-wNM" firstAttribute="top" secondItem="vCU-jK-wun" secondAttribute="top" id="LG2-Sd-q4x"/>
-                                                <constraint firstAttribute="trailing" secondItem="vDV-WG-wNM" secondAttribute="trailing" constant="243" id="hGN-l8-zex"/>
                                                 <constraint firstItem="vDV-WG-wNM" firstAttribute="leading" secondItem="vCU-jK-wun" secondAttribute="leading" id="u2G-Rw-yO9"/>
                                             </constraints>
                                         </stackView>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottomMargin" secondItem="vCU-jK-wun" secondAttribute="bottom" constant="2" id="EEJ-ql-w7o"/>
-                                        <constraint firstItem="vCU-jK-wun" firstAttribute="top" secondItem="17C-bG-GSw" secondAttribute="topMargin" constant="8" id="EEW-14-sHX"/>
                                         <constraint firstItem="vCU-jK-wun" firstAttribute="leading" secondItem="17C-bG-GSw" secondAttribute="leadingMargin" constant="2" id="MkC-g1-My6"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="vCU-jK-wun" secondAttribute="trailing" constant="2" id="Sj4-Sn-Nl2"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="vCU-jK-wun" secondAttribute="trailing" constant="8" id="TU8-wm-0wB"/>
-                                        <constraint firstItem="vCU-jK-wun" firstAttribute="leading" secondItem="17C-bG-GSw" secondAttribute="leadingMargin" constant="8" id="Tv7-bv-Ic2"/>
                                         <constraint firstItem="vCU-jK-wun" firstAttribute="top" secondItem="17C-bG-GSw" secondAttribute="topMargin" constant="2" id="pMb-UI-ZNT"/>
                                     </constraints>
                                 </tableViewCellContentView>
@@ -89,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="729" y="-115"/>
         </scene>
-        <!--View Controller-->
+        <!--Team Detail View Controller-->
         <scene sceneID="bij-Md-1uy">
             <objects>
-                <viewController id="hFv-wm-diH" sceneMemberID="viewController">
+                <viewController id="hFv-wm-diH" customClass="TeamDetailViewController" customModule="dotGloWeek2Assessment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Kq-Qs-gO1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -157,11 +154,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="192.66666666666666" height="34.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Clear"/>
+                                        <connections>
+                                            <action selector="clearButtonTapped:" destination="hFv-wm-diH" eventType="touchUpInside" id="ioj-AZ-PME"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIs-f5-osJ">
                                         <rect key="frame" x="192.66666666666663" y="0.0" width="192.33333333333337" height="34.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Delete"/>
+                                        <connections>
+                                            <action selector="deleteButtonTapped:" destination="hFv-wm-diH" eventType="touchUpInside" id="Kz8-st-fDq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -180,8 +183,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dcJ-dM-w8h">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="lBw-Y0-wC4"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="lBw-Y0-wC4">
+                            <connections>
+                                <action selector="saveButtonTapped:" destination="hFv-wm-diH" id="o0n-uv-wLD"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="clearButton" destination="9VE-cJ-iyR" id="0rK-7F-VYE"/>
+                        <outlet property="deleteButton" destination="aIs-f5-osJ" id="Z0i-Fc-WP0"/>
+                        <outlet property="playerCountTextField" destination="vVG-he-HwX" id="mjt-0l-Qu2"/>
+                        <outlet property="teamNameTextField" destination="l3P-Uf-Vh1" id="isP-Lj-DRJ"/>
+                        <outlet property="teamRankingTextField" destination="bkD-3H-bh3" id="RNw-YD-oOx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CZ0-WU-ewW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

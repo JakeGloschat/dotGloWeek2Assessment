@@ -41,6 +41,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2376812B2999640E00B098C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2376812C2999642500B098C2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				23926A5B2996F99F00B4081C /* Main.storyboard */,
+				23926A602996F9A000B4081C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2376812D2999643100B098C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23926A692996FBFC00B4081C /* SportsteamTableViewController.swift */,
+				23926A6D29970C8000B4081C /* TeamDetailViewController.swift */,
+				23926A6B2996FF1100B4081C /* TeamTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2376812E2999644000B098C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23926A552996F99F00B4081C /* AppDelegate.swift */,
+				23926A572996F99F00B4081C /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		23926A492996F99F00B4081C = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +95,12 @@
 		23926A542996F99F00B4081C /* dotGloWeek2Assessment */ = {
 			isa = PBXGroup;
 			children = (
-				23926A552996F99F00B4081C /* AppDelegate.swift */,
-				23926A572996F99F00B4081C /* SceneDelegate.swift */,
-				23926A5B2996F99F00B4081C /* Main.storyboard */,
+				2376812B2999640E00B098C2 /* Model */,
+				2376812D2999643100B098C2 /* Controllers */,
+				2376812C2999642500B098C2 /* Storyboards */,
+				2376812E2999644000B098C2 /* Supporting Files */,
 				23926A5E2996F9A000B4081C /* Assets.xcassets */,
-				23926A602996F9A000B4081C /* LaunchScreen.storyboard */,
 				23926A632996F9A000B4081C /* Info.plist */,
-				23926A692996FBFC00B4081C /* SportsteamTableViewController.swift */,
-				23926A6B2996FF1100B4081C /* TeamTableViewCell.swift */,
-				23926A6D29970C8000B4081C /* TeamDetailViewController.swift */,
 			);
 			path = dotGloWeek2Assessment;
 			sourceTree = "<group>";
